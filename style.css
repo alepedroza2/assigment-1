@@ -1,0 +1,68 @@
+/* Tag selectors */
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  line-height: 1.6;
+  background: #f6f8fc;
+  color: #14213d;
+}
+
+h1, h2, h3 { margin-top: 0; }
+
+/* Simple header and nav */
+header {
+  background: #0f1f44;
+  color: #fff;
+  padding: 16px;
+}
+
+nav { margin: 10px 0; }
+
+nav a {
+  color: #ffd86b;           /* link color */
+  text-decoration: none;    /* remove underline */
+  margin-right: 12px;
+  padding: 6px 8px;
+  border-radius: 6px;       /* NEW MDN property used */
+}
+
+nav a:hover {                /* hover effect */
+  background: #173064;
+  color: #fff;
+}
+
+/* Main spacing */
+main { padding: 16px; }
+
+/* Class selectors */
+.card {
+  background: #fff;
+  border: 1px solid #e3e7ef;
+  border-radius: 8px;        /* NEW MDN property used */
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.accent { color: #0b8f7f; font-weight: 700; }
+
+/* Checklist bullets */
+.checklist { list-style: none; padding-left: 0; }
+.checklist li::before { content: "✓ "; color: #0b8f7f; font-weight: bold; }
+
+/* Image gallery */
+.gallery { display: block; }
+.gallery img {
+  width: 100%;
+  max-width: 320px;
+  display: inline-block;
+  margin: 6px;
+  border-radius: 8px;        /* NEW MDN property used */
+}
+
+/* Footer */
+footer {
+  background: #e9eef7;
+  color: #14213d;
+  padding: 12px 16px;
+  text-align: center;
+}
