@@ -1,4 +1,3 @@
-/* Tag selectors */
 body {
   margin: 0;
   font-family: 'Inter', Arial, sans-serif;
@@ -9,7 +8,6 @@ body {
 
 h1, h2, h3 { margin-top: 0; }
 
-/* Simple header and nav */
 header {
   background: #0f1f44;
   color: #fff;
@@ -19,47 +17,54 @@ header {
 nav { margin: 10px 0; }
 
 nav a {
-  color: #ffd86b;           /* link color */
-  text-decoration: none;    /* remove underline */
+  color: #ffd86b;
+  text-decoration: none;
   margin-right: 12px;
   padding: 6px 8px;
-  border-radius: 6px;       /* NEW MDN property used */
+  border-radius: 6px;
 }
 
-nav a:hover {                /* hover effect */
+nav a:hover {
   background: #173064;
   color: #fff;
 }
 
-/* Main spacing */
 main { padding: 16px; }
 
-/* Class selectors */
 .card {
   background: #fff;
   border: 1px solid #e3e7ef;
-  border-radius: 8px;        /* NEW MDN property used */
+  border-radius: 8px;
   padding: 12px;
   margin-bottom: 12px;
 }
 
-.accent { color: #0b8f7f; font-weight: 700; }
+.accent {
+  color: #0b8f7f;
+  font-weight: 700;
+}
 
-/* Checklist bullets */
-.checklist { list-style: none; padding-left: 0; }
-.checklist li::before { content: "✓ "; color: #0b8f7f; font-weight: bold; }
+.checklist {
+  list-style: none;
+  padding-left: 0;
+}
 
-/* Image gallery */
+.checklist li::before {
+  content: "✓ ";
+  color: #0b8f7f;
+  font-weight: bold;
+}
+
 .gallery { display: block; }
+
 .gallery img {
   width: 100%;
   max-width: 320px;
   display: inline-block;
   margin: 6px;
-  border-radius: 8px;        /* NEW MDN property used */
+  border-radius: 8px;
 }
 
-/* Footer */
 footer {
   background: #e9eef7;
   color: #14213d;
